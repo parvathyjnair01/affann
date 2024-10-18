@@ -1,13 +1,12 @@
-'''Write a Python program that asks the user to input their name and age.
- After receiving the input, display a message that includes the user's name and age.
-Expected Output:
+"""Write a Python program that stores a string in a variable. Extract a specific part of the string (substring) and then concatenate it with another string. Finally, display the new string.
+Instructions:
 
-Enter your name: John
+    Assign the string "Hello, World!" to a variable.
+    Extract the substring "World" from the string.
+    Concatenate this substring with the string " Everyone!".
+    Print the final concatenated string."""
 
-Enter your age: 25
-
-Hello, John! You are 25 years old.'''
-
-name= input("enter the name")
-age = input("enter your age")
-print("Hello, ",name+"! you are ", age, "years old ")
+x = "hello world"
+y = x[6:12]
+print(y)
+print(y+"Everyone")
