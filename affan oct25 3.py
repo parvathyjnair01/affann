@@ -1,10 +1,10 @@
 temp=float(input("enter the temperature"))
-unit=input("enter the unit of c for celcius and f for fahrenheat")
+unit=input("enter the unit of c for (c)elcius and f for (f)ahrenheat")
 if unit=="c":
- c=(temp-32)*5/9
- print("celcius",c)
+    f=(9/5*temp)+32
+    print("celcius",f)
 else:
- f=(temp*9/5)+32
- print("fahrenheat",f)
+    c = 5/9*(temp-32)
+    print("fahrenheat",c)
 
 
