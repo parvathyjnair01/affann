@@ -10,9 +10,21 @@ for i in range(d):
     for j in range(n-i):
        print("*",end="")
     print(" ")
-for i in range(1, n + 1):
-    for j in range(n - i):
+print("hill pattern")
+e=int(input("enter the no.of rows"))
+
+for i in range(1, e + 1):
+    for j in range(e - i):
         print(" ", end="")
     for k in range(1, 2 * i):
+        print("*", end="")
+    print()
+print("reverse hill pattern")
+f=int(input("enter the no.of rows"))
+
+for i in range(f,0,-1):
+    for j in range(f - i):
+        print(" ", end="")
+    for k in range(i*2-1):
         print("*", end="")
     print()
