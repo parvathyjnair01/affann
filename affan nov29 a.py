@@ -15,3 +15,18 @@ if valid_mobile(mobile):
         print("valid")
 else:
         print("in valid")
+
+
+
+
+"""
+def right_triangle():
+    a=int(input("Enter hypotenuse side:"))
+    b=int(input("Enter base side:"))
+    c=int(input("Enter altitude side:"))
+    if a*a==b*b+c*c:
+        print ("Right angled triangle")
+    else:
+        print("Not right angled")
+right_triangle() 
+"""
